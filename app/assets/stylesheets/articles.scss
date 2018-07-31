@@ -1,0 +1,45 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+header {
+  background-color: lightgrey;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  margin: 20px;
+}
+
+h1 {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 20px;
+}
+
+header a {
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
+  background-color: #FAFAFA;
+  color: grey;
+}
+
+.edit {
+  text-align: center;
+}
+
+.edit input {
+  width: 300px;
+}
+
+.edit textarea {
+  width: 300px;
+}
+

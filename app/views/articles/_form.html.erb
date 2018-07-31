@@ -1,0 +1,14 @@
+<%= link_to "Back", articles_path %>
+<%= form_for(article) do |f| %>
+  <%= f.label :title, "Article Name" %>
+  <%= f.text_field :title %>
+
+  <%= f.label :content, "Article Content" %>
+  <%= f.text_area :content %>
+
+  <% if article.persisted? %>
+    <%= f.submit "Edit Article" %>
+  <% else %>
+    <%= f.submit "Add Article" %>
+  <% end%>
+<% end %>
