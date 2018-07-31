@@ -1,3 +1,5 @@
-<div class="edit">
-<%= render "form", article: @article %>
+<div class="back">
+<%= link_to "Back", article_path(@article) %>
 </div>
+<%= render "form", article: @article %>
+

@@ -1,6 +1,9 @@
 
-
+<div class="card-container">
 <% @articles.each do |article| %>
+<div class="card">
   <h2><%= article.title %></h2>
   <%= link_to "Read More", article_path(article.id) %>
+</div>
 <% end %>
+</div>
